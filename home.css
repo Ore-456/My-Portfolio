@@ -85,18 +85,18 @@ footer{
 }
 
 .inspre{
-    padding-left: 20px;
-    text-align: center;
+    padding-left: 20px !important;
+    text-align: center !important;
 }
 
 .inspire button{
-  padding: 7px 15px;
+  padding: 10px 20px;
   background: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
   color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .hire a{
