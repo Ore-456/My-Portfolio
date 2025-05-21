@@ -84,7 +84,7 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-button{
+.inspire button{
   padding: 7px 15px;
   background: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
   color: white;
