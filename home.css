@@ -77,10 +77,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 25px#quote {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 20px 0;
+    padding-left: 25px;
 }
 
 footer{
@@ -106,5 +103,11 @@ button:hover {
     background: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
     padding:7px 15px;
     border-radius: 10px;
+}
+
+#quote {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px 0;
 }
 
