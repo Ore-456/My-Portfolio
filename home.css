@@ -85,12 +85,13 @@ footer{
 }
 
 button{
-  padding: 10px 20px;
-  background-color: #6a0dad;
+  padding: 7px 15px;
+  background-color: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  margin: 20px 0;
 }
 
 button:hover {
