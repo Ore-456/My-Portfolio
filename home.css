@@ -83,9 +83,10 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.inspire{
-    padding-left: 20px;
-    text-align: center;
+.inspire {
+  border: 2px dashed blue; /* visualize container */
+  padding: 20px !important;
+  text-align: center !important;
 }
 
 .inspire button{
@@ -96,6 +97,9 @@ footer{
   border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
+  padding: 30px !important;
+  margin: 50px !important;
+  background: red !important;
 }
 
 .hire a{
