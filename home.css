@@ -69,6 +69,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: px;
     text-align: center;
 }
 
@@ -83,23 +84,15 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.inspire {
-  border: 2px dashed blue; /* visualize container */
-  padding: 20px !important;
-  text-align: center !important;
-}
-
-.inspire button{
+button{
   padding: 10px 20px;
   background: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
   color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 20px;
-  padding: 30px !important;
-  margin: 50px !important;
-  background: red !important;
+  margin-left: 20px;
+  margin-bottom:10px;
 }
 
 .hire a{
