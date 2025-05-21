@@ -86,7 +86,7 @@ footer{
 
 button{
   padding: 7px 15px;
-  background-color: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
+  background: linear-gradient(to right, #1b181b, #2464f0, #1b181b);
   color: white;
   border: none;
   border-radius: 10px;
