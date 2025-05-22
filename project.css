@@ -24,7 +24,6 @@ body{
 
 .menu a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
     text-decoration: none;
     color:white;
     font-size: 14px;
@@ -45,14 +44,25 @@ body{
     margin: 20px auto;
     display:flex;
     gap: 10px;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
     height:45%;
 }
 
-.project1, .project2, .project3{
+.project{
+    width: 300px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.project img{
+    height: auto;
+    border-radius: 10px;
 }
 
 .prj3{
