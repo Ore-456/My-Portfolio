@@ -47,35 +47,30 @@ body{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    height:45%;
 }
 
 .project{
-    width: 300px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    padding: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
 
 }
 
 .project img{
-    height: auto;
-    border-radius: 10px;
+     width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
 }
 
-.prj3{
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  max-width: 50%;
-  margin: 0 auto;
-  padding: 20px 10px;
+.project:hover {
+  transform: translateY(-5px);
 }
+
 
 h2{
     padding-top: 10px;
